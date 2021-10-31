@@ -12,6 +12,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **PROJECT DESCRIPTION**
+
 Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 
 **A. DATA CLASSES:** There are 3 data classes are defined:
@@ -50,6 +51,7 @@ Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 ------------------------------
 
 **TRANSACTIONS**
+
 There are 10 different transactions occured in test instance (streamlit) with following details:
 
 **1. TRX_1:** 
@@ -244,6 +246,7 @@ Blockchain Ledger with 10 Transactions:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **CONTRIBUTOR**
+
 - PRATEEK SHARMA
 
 www.linkedin.com/in/prateek-sharma-21a081180
