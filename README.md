@@ -22,7 +22,8 @@ Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 
 **- PyChain:** This data class contains: List of Blocks & the difficulty level by defining prefixes like: "0000" before hash for the miners to Guess & Add Block in Chain, eventually. 
 
-
+                             -----------------------------------------------------------------------------------------------------------
+                             
 **B. FUNCTIONS:** There are various functions are defined for following purposes:
 
 **- hash_block:** This function's purpose: to hash the data attributes inside the Block Data-class.
@@ -44,8 +45,10 @@ Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 - Jupyter Notebook
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 **BLOCKCHAIN WEB APPLICATION**
+------------------------------
+
+**TRANSACTIONS**
 There are 10 different transactions occured in test instance (streamlit) with following details:
 
 **1. TRX_1:** 
@@ -134,16 +137,115 @@ There are 10 different transactions occured in test instance (streamlit) with fo
 
 **6. TRX_6:** 
 - Sender: 'Psharma'
-- Receiver: 'Tmiller'
-- Amount: '$300'
+- Receiver: 'PWilliam'
+- Amount: '$600'
+
+![TRX_6](https://user-images.githubusercontent.com/86034323/139605063-8b581f98-dd80-406f-afdc-997f466d25bf.png)
 
 
+- Block_Difficulty_Level: '5'
+- Nonce_Count: '992235'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='PWilliam', amount='$600'), creator_id=42, prev_hash='00641e67dd01722db6a941705c9f9fca9501131bc81cdf6383a293ce8398e811', timestamp='22:15:43', nonce=992235)
 
 
-- Block_Difficulty_Level: '2'
-- Nonce_Count: '16'
-- Block_Details: Block(record=Record(sender='Psharma', receiver='Tmiller', amount='$300'), creator_id=42, prev_hash='00706f49736a2ac6cd356a452e06e5a6e407671aba82150ca497592584e36760', timestamp='22:15:16', nonce=16)
+![Block 6](https://user-images.githubusercontent.com/86034323/139605066-ec6a7fca-ad4e-40ba-b04a-ce74f227fa89.png)
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**7. TRX_7:** 
+- Sender: 'Psharma'
+- Receiver: 'Dsmith'
+- Amount: '$800'
+
+![TRX_7](https://user-images.githubusercontent.com/86034323/139605111-ae267cb8-e7eb-416f-8087-e28bd6b4b53a.png)
 
 
+- Block_Difficulty_Level: '5'
+- Nonce_Count: '1011496'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Dsmith', amount='$800'), creator_id=42, prev_hash='0000099cb96435759f0f300db7df107091b252f61c364601e783fb64c31bb742', timestamp='22:16:22', nonce=1011496)
+
+
+![Block 7](https://user-images.githubusercontent.com/86034323/139605118-43dd413f-7b56-45ec-b166-4db4333ada37.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**8. TRX_8:** 
+- Sender: 'Psharma'
+- Receiver: 'Pwarren'
+- Amount: '$200'
+
+![TRX_8](https://user-images.githubusercontent.com/86034323/139605155-48e36aac-23ac-405f-806c-e0dc0dcbe35e.png)
+
+
+- Block_Difficulty_Level: '5'
+- Nonce_Count: '1903338'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Pwarren', amount='$200'), creator_id=42, prev_hash='00000e0112f7a0c6f4dd0e4da002d9de91678b5ba4f850181f7dd231e7d322a6', timestamp='22:17:29', nonce=1903338)
+
+
+![Block 8](https://user-images.githubusercontent.com/86034323/139605162-defdf00e-9b48-438d-b410-26391ca6663c.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**9. TRX_9:** 
+- Sender: 'Psharma'
+- Receiver: 'Susan'
+- Amount: '$700'
+
+![TRX_9](https://user-images.githubusercontent.com/86034323/139605247-179bb5db-5313-46b6-b7a8-d2684adc473d.png)
+
+
+- Block_Difficulty_Level: '3'
+- Nonce_Count: '3870'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Susan', amount='$700'), creator_id=42, prev_hash='000000737a70a3e396b3f30a245f1ad848d60b16ca6ac95cae62fb0ac24685ee', timestamp='22:18:15', nonce=3870)
+
+
+![Block 9](https://user-images.githubusercontent.com/86034323/139605250-e8ff8061-df5c-4bb7-b4c6-f63a4103684e.png)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**10. TRX_10:** 
+- Sender: 'Psharma'
+- Receiver: 'Skumar'
+- Amount: '$900'
+
+
+![TRX_10](https://user-images.githubusercontent.com/86034323/139605309-094f4315-68dc-4996-ab1d-4863351ded4c.png)
+
+
+- Block_Difficulty_Level: '3'
+- Nonce_Count: '9248'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Skumar', amount='$900'), creator_id=42, prev_hash='00010afd5d4d36a0a8e0a2fad6372ce6d6b3bd6c2503cffdd116ad3749165355', timestamp='22:18:44', nonce=9248)
+
+
+![Block 10](https://user-images.githubusercontent.com/86034323/139605321-79f5115f-f4ea-4921-ba61-45a64085b0c4.png)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**CHAIN VALIDATION**
+
+Chain of 10 blocks are validated with Result: True:
+
+![Chain Validation](https://user-images.githubusercontent.com/86034323/139605451-1ba60209-83bf-40ae-8c49-014b9dc0f8c4.png)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**LEDGER WITH 10 TRANSACTIONS**
+
+Blockchain Ledger with 10 Transactions:
+
+![Ledger](https://user-images.githubusercontent.com/86034323/139605502-cfb50b03-475c-4331-9568-6f43829fb4b3.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**CONTRIBUTOR**
+- PRATEEK SHARMA
+www.linkedin.com/in/prateek-sharma-21a081180
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**LICENSE**
+GNU
