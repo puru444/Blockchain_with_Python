@@ -33,15 +33,15 @@ PyChain: This data class contains: List of Blocks & the difficulty level by defi
 There are 10 different transactions occured in test instance (streamlit) with following details:
 
 **1. TRX_1:** 
-Sender: 'Psharma'
-Receiver: 'Dsmith'
-Amount: '$500'
+- Sender: 'Psharma'
+- Receiver: 'Dsmith'
+- Amount: '$500'
 
 ![TRX_1](https://user-images.githubusercontent.com/86034323/139603967-b8e48013-76ea-4523-aefe-d134b6df8408.png)
 
-Block_Difficulty_Level: '2'
-Nonce_Count: '356'
-Block_Details: Block(record=Record(sender='Psharma', receiver='Dsmith', amount='$500'), creator_id=42, prev_hash='c91caad3d3438d5b2646eb389c1cd51f0ca6ebaa7b38570ff097c1b7ac4eca70', timestamp='22:11:43', nonce=356)
+- Block_Difficulty_Level: '2'
+- Nonce_Count: '356'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Dsmith', amount='$500'), creator_id=42, prev_hash='c91caad3d3438d5b2646eb389c1cd51f0ca6ebaa7b38570ff097c1b7ac4eca70', timestamp='22:11:43', nonce=356)
 
 ![Block 1](https://user-images.githubusercontent.com/86034323/139603978-0959fd44-bca2-4f4b-b6ee-f98e81ea260b.png)
 
