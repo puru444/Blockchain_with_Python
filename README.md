@@ -1,33 +1,49 @@
 # BLOCKCHAIN WITH PYTHON
 
-CASE STUDY: As a FinTech Engineer for renowned Financial Institution, I need to build a Blockchain-based Ledger System with a user-friendly Web Interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
+**CASE STUDY:** As a FinTech Engineer for renowned Financial Institution, I need to build a Blockchain-based Ledger System with a user-friendly Web Interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **CONTENT**
 - Project Description
 - Technologies
 - Blockchain Web-Application
 - Contributor
 - License
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **PROJECT DESCRIPTION**
 Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 
-There are 3 data classes are defined:
-1. Record
-2. Block
-3. PyChain
+**A. DATA CLASSES:** There are 3 data classes are defined:
 
-**Record:** This data class contains: Sender, Receiver & Amount for each transaction.
+**- Record:** This data class contains: Sender, Receiver & Amount for each transaction.
 
-**Block:** This data class contains: Record (Defined first data class in previous step), Creator ID, Previous Hash (Previous Block's Hash), Timestamp, Nonce (No. of attempts to satisfy the difficulty of Mined Hash).
+**- Block:** This data class contains: Record (Defined first data class in previous step), Creator ID, Previous Hash (Previous Block's Hash), Timestamp, Nonce (No. of attempts to satisfy the difficulty of Mined Hash).
 
-**PyChain:** This data class contains: List of Blocks & the difficulty level by defining prefixes like: "0000" before hash for the miners to Guess & Add Block in Chain, eventually. 
+**- PyChain:** This data class contains: List of Blocks & the difficulty level by defining prefixes like: "0000" before hash for the miners to Guess & Add Block in Chain, eventually. 
+
+
+**B. FUNCTIONS:** There are various functions are defined for following purposes:
+
+**- hash_block:** This function's purpose: to hash the data attributes inside the Block Data-class.
+
+**- proof_of_work:** This function's purpose: to set the difficulty level for guessing the prev_hash of block.
+
+**- add_block:** This function's purpose: to add the block in chain after succesfully performed the Proof of Work.
+
+**- is_valid:** This function's purpose: to validate the block in chain.
+
+**- setup():** This function's purpose: to increase the size of chain on addition of each block successfully. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **TECHNOLOGIES**
 - Python
 - Pandas
 - Streamlit
 - Jupyter Notebook
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **BLOCKCHAIN WEB APPLICATION**
 There are 10 different transactions occured in test instance (streamlit) with following details:
@@ -98,3 +114,36 @@ There are 10 different transactions occured in test instance (streamlit) with fo
 ![Block 4](https://user-images.githubusercontent.com/86034323/139604412-b5d07a56-dbe9-41da-8fe9-4412cc8b9591.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**5. TRX_5:** 
+- Sender: 'Psharma'
+- Receiver: 'Tmiller'
+- Amount: '$300'
+
+![TRX_5](https://user-images.githubusercontent.com/86034323/139604903-8ccd214b-39f0-4196-8bb9-f3f18013a933.png)
+
+
+- Block_Difficulty_Level: '2'
+- Nonce_Count: '16'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Tmiller', amount='$300'), creator_id=42, prev_hash='00706f49736a2ac6cd356a452e06e5a6e407671aba82150ca497592584e36760', timestamp='22:15:16', nonce=16)
+
+
+![Block 5](https://user-images.githubusercontent.com/86034323/139604919-5a8349d4-36ce-412d-9554-914ef7c07fc8.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**6. TRX_6:** 
+- Sender: 'Psharma'
+- Receiver: 'Tmiller'
+- Amount: '$300'
+
+
+
+
+- Block_Difficulty_Level: '2'
+- Nonce_Count: '16'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Tmiller', amount='$300'), creator_id=42, prev_hash='00706f49736a2ac6cd356a452e06e5a6e407671aba82150ca497592584e36760', timestamp='22:15:16', nonce=16)
+
+
+
+
