@@ -22,7 +22,8 @@ Decentralized Blockchain Ledger for tracking Sending & Receiving Transactions:
 
 **- PyChain:** This data class contains: List of Blocks & the difficulty level by defining prefixes like: "0000" before hash for the miners to Guess & Add Block in Chain, eventually. 
 
-                             -----------------------------------------------------------------------------------------------------------
+
+
                              
 **B. FUNCTIONS:** There are various functions are defined for following purposes:
 
@@ -244,8 +245,10 @@ Blockchain Ledger with 10 Transactions:
 
 **CONTRIBUTOR**
 - PRATEEK SHARMA
+
 www.linkedin.com/in/prateek-sharma-21a081180
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **LICENSE**
-GNU
+
+GNU General Public License v3.0
