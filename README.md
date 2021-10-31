@@ -43,6 +43,7 @@ There are 10 different transactions occured in test instance (streamlit) with fo
 - Nonce_Count: '356'
 - Block_Details: Block(record=Record(sender='Psharma', receiver='Dsmith', amount='$500'), creator_id=42, prev_hash='c91caad3d3438d5b2646eb389c1cd51f0ca6ebaa7b38570ff097c1b7ac4eca70', timestamp='22:11:43', nonce=356)
 
+
 ![Block 1](https://user-images.githubusercontent.com/86034323/139603978-0959fd44-bca2-4f4b-b6ee-f98e81ea260b.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -58,6 +59,7 @@ There are 10 different transactions occured in test instance (streamlit) with fo
 - Block_Difficulty_Level: '2'
 - Nonce_Count: '93'
 - Block_Details: Block(record=Record(sender='Psharma', receiver='Skumar', amount='$1000'), creator_id=42, prev_hash='009c615c5dba7cbee9ebdec32d5742b1d7a7f9b94602060cb7e2a7ad64c3e14a', timestamp='22:12:35', nonce=93)
+
 
 ![Block 2](https://user-images.githubusercontent.com/86034323/139604191-9cad1c0d-605f-444c-8576-d029cb38a71a.png)
 
@@ -75,6 +77,24 @@ There are 10 different transactions occured in test instance (streamlit) with fo
 - Nonce_Count: '249'
 - Block_Details: Block(record=Record(sender='Psharma', receiver='Skumar', amount='$250'), creator_id=42, prev_hash='00407b66d184a3a69a3224afac120225d4570a9a8aa7c7d2f85f47fce7970936', timestamp='22:13:04', nonce=249)
 
+
 ![Block 3](https://user-images.githubusercontent.com/86034323/139604270-caf8501d-30c4-465e-abaf-941da3be5cb3.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**4. TRX_4:** 
+- Sender: 'Psharma'
+- Receiver: 'Tmiller'
+- Amount: '$700'
+
+![TRX_4](https://user-images.githubusercontent.com/86034323/139604402-0cbde8ff-682d-488c-875e-93d261428a5e.png)
+
+
+- Block_Difficulty_Level: '2'
+- Nonce_Count: '59'
+- Block_Details: Block(record=Record(sender='Psharma', receiver='Tmiller', amount='$700'), creator_id=42, prev_hash='00b29fecd0c868f72b3605791eb38fd086b2a57a61c1e9e99480fb02fcb5a25a', timestamp='22:14:29', nonce=59)
+
+
+![Block 4](https://user-images.githubusercontent.com/86034323/139604412-b5d07a56-dbe9-41da-8fe9-4412cc8b9591.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
