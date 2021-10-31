@@ -32,7 +32,7 @@ PyChain: This data class contains: List of Blocks & the difficulty level by defi
 # BLOCKCHAIN WEB APPLICATION
 There are 10 different transactions occured in test instance (streamlit) with following details:
 
-# 1. TRX_1: 
+**1. TRX_1:** 
 Sender: 'Psharma'
 Receiver: 'Dsmith'
 Amount: '$500'
